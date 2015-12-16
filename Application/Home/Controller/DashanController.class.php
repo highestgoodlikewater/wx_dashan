@@ -22,7 +22,7 @@ class DashanController extends Controller{
 		$to_info_arr = $db_userinfo->where(array("openid" => "{$to_openid}"))->find();
 
 		if (IS_POST) {
-
+			
 			// 实例化工具类
 			$utilsObj = new UtilsController();
 
